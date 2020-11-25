@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkDone"
+        app:lottie_rawRes="@raw/button_checkmark"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchButton"
+        app:lottie_rawRes="@raw/button_switch"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading"/>
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        app:lottie_rawRes="@raw/location_search"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="true"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/oleo_script_swash_caps"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/search_nearby_locations"-->
+<!--        android:textSize="19sp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textColor="@android:color/holo_red_dark"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="40dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:fontFamily="@font/linden_hill"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry"-->
+<!--        android:textColor="@android:color/holo_red_dark"-->
+<!--        android:textSize="14sp"/>-->
+
+
+</LinearLayout>
